@@ -26,10 +26,10 @@ const Hero = (props: Props) => {
         <Cursor cursorColor="#F7AB0A" />
       </h1>
       <div className="z-20">
-        <Link href={""}>
+        <Link href={"#about"}>
           <button className="heroButton">About</button>
         </Link>
-        <Link href={""}>
+        <Link href={"#experience"}>
           <button className="heroButton">Experience</button>
         </Link>
         <Link href={""}>

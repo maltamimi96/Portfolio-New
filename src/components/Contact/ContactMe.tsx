@@ -12,7 +12,7 @@ const ContactMe = (props: Props) => {
         className="flex flex-col space-y-10
       ">
         <h4 className="text-4xl font-semibold text-center">Contact Me Via</h4>
-        <div></div>
+        <div className="text"></div>
       </div>
     </div>
   )

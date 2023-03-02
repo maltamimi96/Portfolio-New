@@ -1,6 +1,8 @@
 import About from "@/components/About"
+import ContactMe from "@/components/Contact/ContactMe"
 import Header from "@/components/Header"
 import Hero from "@/components/Hero/Hero"
+import Projects from "@/components/Projects/Projects"
 import Skills from "@/components/Skills/Skills"
 import WorkExperience from "@/components/WorkExperience/WorkExperience"
 import { Inter } from "next/font/google"
@@ -30,6 +32,12 @@ export default function Home() {
         </section>
         <section id="skills" className="snap-center scroll-smooth">
           <Skills />
+        </section>
+        <section id="projects" className="snap-center scroll-smooth">
+          <Projects />
+        </section>
+        <section id="contact" className="snap-center scroll-smooth">
+          <ContactMe />
         </section>
       </main>
     </>

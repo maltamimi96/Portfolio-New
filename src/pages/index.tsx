@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] })
 export default function Home() {
   return (
     <>
-      <main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory scroll-smooth overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-cyan-500 overflow-x-hidden ">
+      <main className="bg-gray-900 text-white h-screen snap-y snap-mandatory scroll-smooth overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-cyan-500 overflow-x-hidden ">
         <Head>
           <title>Portfolio</title>
         </Head>

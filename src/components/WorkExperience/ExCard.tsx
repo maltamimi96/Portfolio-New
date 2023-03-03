@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 function ExCard() {
   return (
-    <article className="flex flex-col rounded-lg items-center   space-y-7 flex-shrink-0  w-full md:w-[600px] xl:w-[900px] snap-center bg-[#292929]  hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200   p-10 overflow-hidden ">
+    <article className="flex flex-col rounded-lg items-center   space-y-7 flex-shrink-0  w-full md:w-[600px] xl:w-[900px] snap-center bg-gray-800  hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200   p-10 overflow-hidden ">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

@@ -16,13 +16,13 @@ const BackgroundCircle = (props: Props) => {
         duration: 2.5,
       }}
       className="relative flex justify-center items-center">
-      <div className="absolute border border-[#333333] rounded-full h-[200px] w-[200px]  animate-ping mt-52" />
-      <div className="absolute border border-[#333333] rounded-full h-[300px] w-[300px]  animate-ping mt-52" />
+      <div className="absolute border border-[#333333] rounded-full w-32 h-32  md:h-[200px] md:w-[200px]  animate-ping mt-52  delay-1000" />
+      <div className="absolute border border-[#333333] rounded-md w-44 h-44 md:h-[300px] md:w-[300px]  animate-pulse mt-52 skew-y-6 delay-1000" />
       <div />
-      <div className="absolute border border-[#333333] rounded-full h-[500px] w-[500px]  animate-ping mt-52" />
-      <div className="rounded-full border border-gray-600 h-[650px] w-[650px] absolute mt-52 animate-pulse opacity-20 " />
+      <div className="absolute border border-[#333333] rounded-xl h-52 w-52 md:h-[500px] md:w-[500px]  animate-ping mt-52 delay-500 skew-y-12" />
+      <div className="rounded-lg border border-cyan-800/50 w-64 h-64 md:h-[650px] md:w-[650px] absolute mt-52 animate-pulse opacity-20 skew-y-6 delay-500 " />
 
-      <div className="rounded-full border border-[#333333] h-[800px] w-[800px] absolute mt-52 animate-pulse" />
+      <div className="rounded-lg border border-cyan-800/50 w-64 h-64 md:h-[600px] md:w-[600px] absolute mt-52 animate-pulse -skew-y-12 delay-500" />
     </motion.div>
   )
 }

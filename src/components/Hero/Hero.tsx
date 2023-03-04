@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
         <span>{text}</span>
         <Cursor cursorColor="#F7AB0A" />
       </h1>
-      <div className="z-20">
+      <div className="z-20 flex gap-1 flex-wrap items-center justify-center">
         <Link href={"#about"}>
           <button className="heroButton">About</button>
         </Link>

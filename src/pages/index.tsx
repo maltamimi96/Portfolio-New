@@ -30,13 +30,13 @@ export default function Home() {
         <section id="experience" className="snap-center scroll-smooth">
           <WorkExperience />
         </section>
-        <section id="skills" className="snap-center scroll-smooth">
+        <section id="skills" className="snap-start scroll-smooth">
           <Skills />
         </section>
-        <section id="projects" className="snap-center scroll-smooth">
+        <section id="projects" className="snap-start scroll-smooth">
           <Projects />
         </section>
-        <section id="contact" className="snap-center scroll-smooth">
+        <section id="contact" className="snap-start scroll-smooth">
           <ContactMe />
         </section>
       </main>

@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <main className="bg-gray-900 text-white h-screen snap-y snap-mandatory scroll-smooth overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-cyan-500 overflow-x-hidden ">
         <Head>
-          <title>Portfolio</title>
+          <title>Mohammad Altamimi Portfolio</title>
         </Head>
 
         <Header />
@@ -27,9 +27,9 @@ export default function Home() {
         <section id="about" className="snap-center">
           <About />
         </section>
-        <section id="experience" className="snap-center scroll-smooth">
+        {/* <section id="experience" className="snap-center scroll-smooth">
           <WorkExperience />
-        </section>
+        </section> */}
         <section id="skills" className="snap-start scroll-smooth">
           <Skills />
         </section>

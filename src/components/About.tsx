@@ -29,15 +29,22 @@ const About = (props: Props) => {
           <span className="text-gray-300 underline decoration-yellow-500 animate-pulse">
             background
           </span>
-          about me
         </h4>
-        <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          ullam error assumenda porro deserunt accusantium similique corporis
-          perspiciatis explicabo! Fugit, aliquam doloremque voluptate amet culpa
-          laudantium. Dignissimos magni dolor nihil ipsa est suscipit ad sed,
-          magnam, corporis deleniti culpa sequi? Aliquam labore sequi sit quod
-          veniam illum! Numquam, a et!
+        <p className="text-base tracking-wide text-xl">
+          I am a passionate and dedicated software developer with a desire to
+          create innovative and efficient solutions. I have experience in
+          various programming languages, software development methodologies, and
+          project management. My curiosity and love for problem-solving drive me
+          to continuously learn and stay up-to-date with the latest technologies
+          in the ever-evolving world of software development. With a focus on
+          clean and scalable code, I am committed to delivering high-quality
+          software solutions that exceed expectations. I thrive in collaborative
+          environments, leveraging my strong communication skills to effectively
+          work with cross-functional teams to deliver successful projects. My
+          portfolio showcases a range of projects that highlight my technical
+          expertise and demonstrate my ability to turn ideas into functional and
+          user-friendly applications. I am excited to embark on new challenges
+          and contribute to the ever-growing field of software development.
         </p>
       </div>
     </motion.div>

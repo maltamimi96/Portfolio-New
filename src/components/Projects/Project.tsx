@@ -1,7 +1,12 @@
 import React from "react"
 import { motion } from "framer-motion"
 
-type Props = {}
+type Props = {
+  img: string
+  title: string
+  description: string
+  link: string
+}
 
 export const Project = (props: Props) => {
   return (
@@ -11,17 +16,14 @@ export const Project = (props: Props) => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
-        className="mx-auto w-fit h-32 md:h-64"
-        src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+        className=" rounded-lg  md:h-[22rem]  "
+        src={props.img}
       />
-      <div className="space-y-10 px-0 md:px-10 max-w-6xl mx-auto">
-        <h4 className="text-4xl font-semibold text-center">
-          Case Study 1 of 3
+      <div className=" px-0 md:px-10 max-w-6xl mx-auto space-y-4">
+        <h4 className=" text-2xl md:text-4xl font-semibold text-center tracking-widest">
+          {props.title}
         </h4>
-        <p className="text-lg text-center md:text-left ">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
-          impedit molestias, sit exercitationem cum laudantium itaque sed iste
-        </p>
+        <p className="text-lg text-center md:text-left ">{props.description}</p>
       </div>
     </div>
   )

@@ -15,7 +15,7 @@ const Hero = (props: Props) => {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircle />
       <img
-        src="https://media.licdn.com/dms/image/C5603AQEMlrRZRosAbA/profile-displayphoto-shrink_800_800/0/1605006442122?e=1683158400&v=beta&t=UysFs6s5aG512AJvF-4kMNGrA19ggdzcQ9jKVRt7iSE"
+        src="https://media.licdn.com/dms/image/C5603AQEMlrRZRosAbA/profile-displayphoto-shrink_200_200/0/1605006442122?e=1689811200&v=beta&t=SCKBiJe5vZKKl-M4mKmAudTecsuhdGzoJhekaEFAf7E"
         className="relative rounded-full h-40 w-40 mx-auto object-cover "
       />
       <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] md:text-lg">
@@ -29,9 +29,9 @@ const Hero = (props: Props) => {
         <Link href={"#about"}>
           <button className="heroButton">About</button>
         </Link>
-        <Link href={"#experience"}>
+        {/* <Link href={"#experience"}>
           <button className="heroButton">Experience</button>
-        </Link>
+        </Link> */}
         <Link href={"#skills"}>
           <button className="heroButton">Skills</button>
         </Link>

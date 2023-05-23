@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 type Props = {
   img: string
   title: string
-  description: string
+  description: string[]
   link: string
 }
 
@@ -16,14 +16,18 @@ export const Project = (props: Props) => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
-        className=" rounded-lg  md:h-[22rem]  "
+        className=" rounded-lg h-[14rem]   md:h-[22rem]  "
         src={props.img}
       />
       <div className=" px-0 md:px-10 max-w-6xl mx-auto space-y-4">
-        <h4 className=" text-2xl md:text-4xl font-semibold text-center tracking-widest">
+        <h4 className=" text-2xl md:text-4xl font-semibold  tracking-widest text-center">
           {props.title}
         </h4>
-        <p className="text-lg text-center md:text-left ">{props.description}</p>
+        <ul className="text-md text-center md:text-left ">
+          {props.description?.map((item, index) => (
+            <li key={index}>-{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )

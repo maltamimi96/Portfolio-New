@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <header className=" sticky top-0 flex items-start justify-between max-w-7xl mx-auto p-5 z-40 xl:items-center">
+    <header className=" md:sticky md:top-0 flex items-start justify-between max-w-7xl mx-auto p-5 z-40 xl:items-center">
       <motion.div
         initial={{
           x: -500,
@@ -55,9 +55,11 @@ const Header = (props: Props) => {
           network="email"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+        <a
+          href="email: m.altamimi96@outlook.com"
+          className="uppercase hidden md:inline-flex text-sm text-gray-400">
           get in touch
-        </p>
+        </a>
       </motion.div>
     </header>
   )

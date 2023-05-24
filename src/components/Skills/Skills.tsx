@@ -10,14 +10,17 @@ function Skills({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Skills
-      </h3>
-      <h3 className="absolute top-36  uppercase tracking-[3px] text-gray-500 text-sm">
-        Hover over a skill for current proficiency
-      </h3>
-      <div className="grid grid-cols-3 md:grid-cols-4 gap-5 ">
+      className=" flex flex-col w-full text-center md:text-left  max-w-[2000px] xl:px-10 min-h-screen justify-start space-y-10 mx-auto items-center md:py-10 ">
+      <div className="text-center my-4 md:my-6 ">
+        <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl">
+          Skills
+        </h3>
+        <h3 className="  uppercase tracking-[3px] text-gray-500 text-sm">
+          Hover over a skill for current proficiency
+        </h3>
+      </div>
+
+      <div className="grid grid-cols-3 md:grid-cols-4 gap-5 md:gap-10 ">
         <Skill
           percentages={95}
           image="https://cdn-icons-png.flaticon.com/512/1532/1532556.png"
@@ -79,6 +82,10 @@ function Skills({}: Props) {
         <Skill
           percentages={60}
           image="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+        />
+        <Skill
+          percentages={95}
+          image="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png"
         />
       </div>
     </motion.div>

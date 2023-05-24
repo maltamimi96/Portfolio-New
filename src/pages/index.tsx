@@ -10,7 +10,7 @@ import Head from "next/head"
 export default function Home() {
   return (
     <>
-      <main className="bg-gray-900 text-white h-screen snap-y snap-mandatory scroll-smooth overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-cyan-500 overflow-x-hidden ">
+      <main className="bg-gray-900 text-white h-screen md:snap-y md:snap-mandatory scroll-smooth overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-cyan-500 overflow-x-hidden ">
         <Head>
           <title>Mohammad Altamimi Portfolio</title>
         </Head>
@@ -21,7 +21,7 @@ export default function Home() {
         <section id="hero" className=" snap-start">
           <Hero />
         </section>
-        <section id="about" className="snap-center">
+        <section id="about" className="snap-center h-fit">
           <About />
         </section>
         <section id="skills" className="snap-start scroll-smooth">

@@ -21,7 +21,7 @@ export const Project = (props: Props) => {
       />
       <div className="  md:px-10 max-w-6xl mx-auto space-y-4 px-4">
         <h4 className=" text-2xl md:text-4xl font-semibold  tracking-widest text-left underline decoration-cyan-500">
-          Project 1: {props.title}
+          Project : {props.title}
         </h4>
         <ul className="text-md text-left md:text-left md:text-xl ">
           {props.description?.map((item, index) => (

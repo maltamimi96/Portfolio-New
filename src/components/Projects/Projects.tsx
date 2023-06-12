@@ -33,31 +33,16 @@ const Projects = (props: Props) => {
           link=""
         />
         <Project
-          img="https://firebasestorage.googleapis.com/v0/b/msamowing-f8bb5.appspot.com/o/demo.png?alt=media&token=0353693d-6e64-4483-8ed7-5e68fbe1e7f7"
+          img="https://firebasestorage.googleapis.com/v0/b/msamowing-f8bb5.appspot.com/o/trello.png?alt=media&token=62c9e737-1dde-4e10-9f59-fdc88f52a528&_gl=1*sbre7h*_ga*NjYzNDA1MC4xNjY1NTg1MjI1*_ga_CW55HF8NVT*MTY4NjU4NjkwOC40MS4xLjE2ODY1ODY5NzIuMC4wLjA."
           description={[
-            "Admin Dashboard: Secure web app for lawn mowing business built with React and Firebase.",
-            "Manage: Customer info, orders, and invoices.",
-            "Easy customer management: Add, delete, update, view details.",
-            "Analytics: Visual charts for revenue, expenses, customer trends.",
-            "Functionality: Calculate revenue, expenses, generate invoices.",
-            "Firebase: Authentication, database storage.",
-            "Streamlines operations, enhances financial management.",
+            "User-friendly interface",
+            "Board organization",
+            "Lists and cards",
+            "Drag-and-drop functionality",
+            "Search functionality",
+            "Mobile and web accessibility",
           ]}
-          title="Admin Dashboard"
-          link=""
-        />
-        <Project
-          img="https://firebasestorage.googleapis.com/v0/b/msamowing-f8bb5.appspot.com/o/demo.png?alt=media&token=0353693d-6e64-4483-8ed7-5e68fbe1e7f7"
-          description={[
-            "Admin Dashboard: Secure web app for lawn mowing business built with React and Firebase.",
-            "Manage: Customer info, orders, and invoices.",
-            "Easy customer management: Add, delete, update, view details.",
-            "Analytics: Visual charts for revenue, expenses, customer trends.",
-            "Functionality: Calculate revenue, expenses, generate invoices.",
-            "Firebase: Authentication, database storage.",
-            "Streamlines operations, enhances financial management.",
-          ]}
-          title="Admin Dashboard"
+          title="Trello Clone"
           link=""
         />
       </div>
